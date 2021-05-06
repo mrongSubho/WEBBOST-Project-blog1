@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 html, body{
     width: 100vw;
@@ -8,7 +8,7 @@ html, body{
 }
 
 .container{
-    width: 60%;
+    width: 72%;
     margin: 0 auto;
 }
 
@@ -17,16 +17,46 @@ nav{
     background:#EAEAEA;
 
 }
+.nav-item{
+    margin-left: auto;
+}
+.nav-item ul{
+    display : flex;
+}
+.nav-item li{
+    margin-left: 30px;
+    padding: 10px;
+}
 
+.nav-item a{
+    text-decoration : none;
+    font-size: 17px;
+    color: #000;
+}
+.nav-item li:hover{
+    border-bottom : 5px solid #0066F9; 
+}
 .nav-container{
     display: flex;
+    align-items: center;
+    padding: 27px;
 }
 
 .brand-logo{
-    width: 150px;
-    height: 150px;
+    width: 165px;
 }
 .brand-logo img{
     width: 100%;
     height: 100%;
 }
+//.active{
+    border-bottom : 5px solid #0066F9; 
+}
+
+.button{
+    background: #0066F9;
+    border-radius: 2px;
+}
+ .button a{
+     color: #FFF;
+ }
