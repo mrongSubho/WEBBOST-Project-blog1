@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box
+}
+html, body{
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* navbar */
+nav{
+    background:#EAEAEA;
+
+}
+
+.nav-container{
+    display: flex;
+}
+
+.brand-logo{
+    width: 150px;
+    height: 150px;
+}
+.brand-logo img{
+    width: 100%;
+    height: 100%;
+}
