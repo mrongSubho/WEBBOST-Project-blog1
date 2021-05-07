@@ -34,10 +34,12 @@ p{
     line-height: 27px;
     margin-top: 10px;
     text-align: justify;
-    
-    
-
 }
+
+.posts{
+    padding: 30px 0;
+}
+
 a{
     color: #000;
 }
@@ -48,7 +50,15 @@ a{
 
 hr.home{
     border-top : 1px solid #EAEAEA;
-    margin: 20px 0;
+    margin: 30px 0;
+}
+
+/* blog items */
+
+.blog-contents{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 
 /* navbar */
