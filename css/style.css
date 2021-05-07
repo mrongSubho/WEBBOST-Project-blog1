@@ -8,10 +8,18 @@ html, body{
 }
 
 .container{
-    width: 72%;
+    width: 67%;
     margin: 0 auto;
 }
-
+p{
+    color: #000;
+    font-size: 17px;
+    line-height: 1.4;
+}
+p a{
+    color: #000
+    
+}
 /* navbar */
 nav{
     background:#EAEAEA;
@@ -68,9 +76,11 @@ nav{
  .icons i{
     font-size: 50px;
     color: #0066F9;
+    padding: 20px 0;
  }
  .icons span{
      margin-right: 15px;
+     
  }
 
  .main{
