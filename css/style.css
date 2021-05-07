@@ -14,9 +14,11 @@ html, body{
 
 h1{
     color: #000;
-    font-size: 36px;
-    font-weight: bold;
-    padding-top: 20px;
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 44px;
+    padding: 20px 0;
 }
 h3{
     color: #000;
@@ -27,7 +29,9 @@ h3{
 p{
     color: #000;
     font-size: 17px;
-    line-height: 1.4;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 27px;
     margin-top: 10px;
     text-align: justify;
     
@@ -37,8 +41,15 @@ p{
 a{
     color: #000;
 }
+.main{
+    padding: 50px 0;
+    margin-top: 20px;
+}
 
-
+hr.home{
+    border-top : 1px solid #EAEAEA;
+    margin: 20px 0;
+}
 
 /* navbar */
 nav{
@@ -106,7 +117,4 @@ nav{
      
  }
 
- .main{
-     padding: 50px 0;
-     margin-top: 20px;
- }
+ 
