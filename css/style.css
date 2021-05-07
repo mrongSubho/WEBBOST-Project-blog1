@@ -37,7 +37,7 @@ p{
 }
 
 .posts{
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 a{
@@ -50,17 +50,85 @@ a{
 
 hr.home{
     border-top : 1px solid #EAEAEA;
-    margin: 30px 0;
+    margin: 25px 0;
 }
 
 /* blog items */
 
-.blog-contents{
+.blog-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
+.blog-container a{
+   text-decoration: none; 
+}
+.blog-contents{
+    padding: 0 35px 50px 35px;
+}
+
+.blog-item{
+    width: 100%;
+    overflow: hidden;
+    background: #DBDBDB;
+}
+
+
+.blog-img{
+    width: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-img img{
+    width: 600px;
+    height: 300px;
+    max-height: 300px;
+
+}
+
+.gatsby-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.gatsby{
+    background: #7D4CDB;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: -17px;
+}
+
+.blog-title1{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.blog-title2{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+.blog-title3{
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
 /* navbar */
 nav{
     background:#EAEAEA;
@@ -115,6 +183,7 @@ nav{
 
  hr.footer{
     border-top : 1px solid #EAEAEA;
+    margin-top: 50px;
  }
 
  .icons i{
