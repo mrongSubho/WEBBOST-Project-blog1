@@ -20,12 +20,12 @@ h1{
     margin: 20px 0;
 }
 
-h2{
+/* h2{
     color: #000;
     font-size: 24px;
     font-weight: 500;
     margin: 20px 0;  
-}
+} */
 h3{
     color: #000;
     font-size: 20px;
@@ -56,6 +56,14 @@ p{
     margin: 20px 0;
 }
 
+.link2{
+    margin: 20px 0 80px 0;
+}
+.link2 a{
+    color:#0066F9;
+    text-decoration: none;
+}
+
 a{
     color: #000;
 }
@@ -76,10 +84,8 @@ hr.h2{
  }
 
  hr.h3{
-    width: 50%;
-    align-items: center;
-    border-top : 1px solid #EAEAEA;
-    margin-top: 50px;
+    border-top : 1px solid #756b6b;
+    margin: 20px 0 40px 0;
  }
 
 .container{
@@ -204,10 +210,47 @@ nav{
 .blog-info{
     padding: 0 20px 20px 20px;
 }
+.blog-page h1{
+    color: #000;
+    font-size: 36px;
+    margin: 16px 0;
+}
 
+.blog-page h2{
+    color: #000000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
 
+.blog-page h3{
+    color: #000;
+    font-size: 24px;
+    margin: 12px 0;
+}
+.blog-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+}
+.blog-page img{
+    width: 1080px;
+    height: 500px;
+    object-position: center;
+    object-fit: cover;
+    
+}
 
-
+.blog-page .title{
+    color: #000;
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 44px;
+    margin: 30px 0;
+}
 
 
 
