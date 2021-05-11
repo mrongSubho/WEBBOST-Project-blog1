@@ -268,8 +268,38 @@ nav{
 
 .form-items label{
     display: block;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
 }
 
+.form-controller{
+    border-radius: 3px;
+    border: 1px solid #EAEAEA;
+    resize: none;
+    outline: none;
+    font-family: "Open Sans";
+    margin: 10px 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.form-button{
+    color: #FFF;
+    background: #0066F9;
+    border: none;
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px 30px;
+}
 
  /* Footer */
 
