@@ -254,6 +254,22 @@ nav{
 
 
 
+/* Form */
+
+.form-container{
+    margin: 30px 0;
+}
+
+.form-items{
+    width: 100%;
+    margin: 15px 0;
+
+}
+
+.form-items label{
+    display: block;
+}
+
 
  /* Footer */
 
